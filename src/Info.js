@@ -11,7 +11,7 @@ const Info = () => {
             <button className="uppercase bg-yellow-100 text-xl  text-black p-3 rounded-3xl m-auto mt-3 hover:bg-yellow-200"> Book Appointment</button>
          </div>
 
-         <div className="font-roboto mt-20 pb-4 m-auto w-80w grid grid-cols-1 md:grid-cols-3 gap-16 text-xl text-white" >
+         <div className="font-roboto mt-20 pb-4 m-auto w-80w grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-xl text-white" >
             <div className="font-roboto text-xl text-white">
                <div className="flex justify-evenly items-center mb-2">
                   <span className="text-7xl"><RiBookletFill /></span>

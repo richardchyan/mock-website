@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'roboto': ['Roboto', 'sans-serif'],
+        'beezee': ['ABeeZee', 'sans-serif'],
       },
       backgroundImage: theme => ({
         'banner1': "url('https://images.pexels.com/photos/5715882/pexels-photo-5715882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",

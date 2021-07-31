@@ -2,7 +2,7 @@ import About from './About';
 import './App.css';
 import Banner from './Banner';
 import Contact from './Contact';
-import Info from './Info';
+import Footer from './Footer';
 import Team from './Team';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <About />
       <Team />
       <Contact />
+      <Footer />
     </div>
   );
 }
