@@ -8,7 +8,7 @@ const Navbar = () => {
    const changeBackground = () => {
 
       console.log(window.scrollY);
-      if(window.scrollY >= 110 ) {
+      if(window.scrollY >= 120 ) {
          setNavbar(true);
       } else {
          setNavbar(false);
@@ -24,28 +24,20 @@ const Navbar = () => {
    return ( 
 
       <div>
-         <nav className={navbar ? 'bg-gray-800 flex justify-evenly items-center fixed w-full p-6' : "bg-transparent flex justify-evenly items-center fixed w-full p-6"}>
+         <nav className={navbar ? 'bg-gray-700 flex justify-evenly items-center fixed w-full p-6' : "bg-transparent flex justify-evenly items-center fixed w-full p-6"}>
             <div className="text-7xl text-white">Logo here</div>
             <ul className="flex flex-row justify-between">
                <li className="cursor-pointer uppercase text-xl text-white px-4">
-                  <Link activeClass="active" to="about" spy={true} smooth={true} duration={700}>
-                     About
-                  </Link>
+                  <a href="#about">About</a>
                </li>
                <li className="cursor-pointer uppercase text-xl text-white px-4">
-                  <Link activeClass="active" to="services" spy={true} smooth={true} duration={700}>
-                     Services
-                  </Link>
+                  <a href="#services">Services</a>   
                </li>
                <li className="cursor-pointer uppercase text-xl text-white px-4">
-                  <Link activeClass="active" to="team" spy={true} smooth={true} duration={700}>
-                     Team
-                  </Link>
+                  <a href="#team">Team</a>
                </li>
                <li className="cursor-pointer uppercase text-xl text-white px-4">
-                  <Link activeClass="active" to="contact" spy={true} smooth={true} duration={700}>
-                     Contact
-                  </Link>
+                  <a href="#contact">Contact</a>
                </li>
             </ul>
          </nav>

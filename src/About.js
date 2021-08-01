@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div id="services">
          {/* services */}
-         <h2 className="text-3xl uppercase">Our Services</h2>
+         <h2 className="text-4xl uppercase bg-blue-200 py-8">Our Services</h2>
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-80w m-auto mt-10">
             <div className="flex flex-col p-6">
                <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
