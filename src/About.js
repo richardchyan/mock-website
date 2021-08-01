@@ -1,5 +1,9 @@
 import { ImEye } from 'react-icons/im';
-
+import { AiOutlineCamera } from 'react-icons/ai';
+import { FaBookMedical, FaNotesMedical } from 'react-icons/fa';
+import { GiLotusFlower } from 'react-icons/gi';
+import { ImClipboard } from 'react-icons/im';
+import { GiGlassBall } from 'react-icons/gi';
 
 const About = () => {
    return ( 
@@ -24,8 +28,8 @@ const About = () => {
          <h2 className="text-3xl uppercase">Our Services</h2>
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-80w m-auto mt-10">
             <div className="flex flex-col p-6">
-               <span class="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
-                  <ImEye />
+               <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
+                  <FaBookMedical />
                </span>
                <h3 className="text-gray-600">
                   Comprehensive Eye Exam
@@ -33,7 +37,7 @@ const About = () => {
             </div>
             <div className="flex flex-col p-6">
                <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
-                  <ImEye />
+                  <GiGlassBall />
                </span>
                <h3 className="text-gray-600">
                   Soft Contact Lens Fitting
@@ -49,7 +53,7 @@ const About = () => {
             </div>
             <div className="flex flex-col p-6">
                <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
-                  <ImEye />
+                  <AiOutlineCamera />
                </span>
                <h3 className="text-gray-600">
                   Advanced Retinal Imaging
@@ -57,7 +61,7 @@ const About = () => {
             </div>
             <div className="flex flex-col p-6">
                <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
-                  <ImEye />
+                  <GiLotusFlower />
                </span>
                <h3 className="text-gray-600">
                   OHIP Coverage
@@ -65,7 +69,7 @@ const About = () => {
             </div>
             <div className="flex flex-col p-6">
                <span className="text-7xl text-green-500 border-2 border-blue-300 rounded-2xl m-auto p-3 mb-7">
-                  <ImEye />
+                  <ImClipboard />
                </span>
                <h3 className="text-gray-600">
                   Direct Insurance Billing
