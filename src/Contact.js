@@ -5,7 +5,7 @@ import { RiMailSendLine } from 'react-icons/ri';
 
 const Contact = () => {
    return ( 
-      <div className="bg-gray-50 grid grid-cols-1 lg:grid-cols-3 p-20">
+      <div id="contact" className="bg-gray-50 grid grid-cols-1 lg:grid-cols-3 p-20">
          {/* contact info, phone numbers, email */}
          <div className="flex flex-col">
             <h2 className="uppercase text-2xl bg-blue-100 border-2 border-gray-50 rounded-xl font-medium p-2 mb-10 md:mb-6">

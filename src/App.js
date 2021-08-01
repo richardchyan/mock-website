@@ -3,11 +3,13 @@ import './App.css';
 import Banner from './Banner';
 import Contact from './Contact';
 import Footer from './Footer';
+import Navbar from './Navbar';
 import Team from './Team';
 
 function App() {
   return (
     <div className="App h-full">
+      <Navbar />
       <Banner />
       <About />
       <Team />

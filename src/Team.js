@@ -9,7 +9,7 @@ const Team = () => {
 
    return ( 
       <div>
-         <h2 className="uppercase text-4xl font-roboto mt-10 md:mt-4 bg-blue-200 py-8">Our Team</h2>
+         <h2 id="team" className="uppercase text-4xl font-roboto mt-10 md:mt-4 bg-blue-200 py-8">Our Team</h2>
          <div className="w-80w m-auto mt-8 md:mt-10">
             {/* single portrait div */}
             {/* portrait 1 */}
