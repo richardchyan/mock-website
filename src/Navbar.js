@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import logo from './images/markham-eye-logo-final.png';
 
 const Navbar = () => {
 
@@ -8,7 +8,7 @@ const Navbar = () => {
    const changeBackground = () => {
 
       console.log(window.scrollY);
-      if(window.scrollY >= 120 ) {
+      if(window.scrollY >= 110 ) {
          setNavbar(true);
       } else {
          setNavbar(false);
@@ -24,8 +24,8 @@ const Navbar = () => {
    return ( 
 
       <div>
-         <nav className={navbar ? 'bg-gray-700 flex justify-evenly items-center fixed w-full p-6' : "bg-transparent flex justify-evenly items-center fixed w-full p-6"}>
-            <div className="text-7xl text-white">Logo here</div>
+         <nav className={navbar ? 'bg-gray-700 flex justify-between items-center fixed w-full' : "bg-transparent flex justify-between items-center fixed w-full"}>
+            <img className="w-1/5 h-auto" src={logo} alt="Markham Eye Care" />
             <ul className="flex flex-row justify-between">
                <li className="cursor-pointer uppercase text-xl text-white px-4">
                   <a href="#about">About</a>
@@ -40,6 +40,7 @@ const Navbar = () => {
                   <a href="#contact">Contact</a>
                </li>
             </ul>
+
          </nav>
       </div>
     );
