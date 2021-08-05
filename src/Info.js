@@ -7,13 +7,13 @@ const Info = () => {
 
       <div className="font-roboto flex flex-col">
          <div className="font-roboto flex flex-col">
-            <h1 className="font-roboto text-5xl lg:text-8xl text-white bg-opacity-50 rounded mt-48 p-4 w-80w m-auto"> Welcome to Markham Eye Care</h1>
+            <h1 className="font-roboto text-5xl lg:text-8xl text-white bg-opacity-50 rounded mt-36 p-4 w-4/5 m-auto"> Welcome to Markham Eye Care</h1>
             <button className="uppercase bg-blue-100 text-md lg:text-xl  text-black p-3 rounded-3xl m-auto mt-3 hover:bg-blue-300"> 
                <a href="https://www.lenscrafters.ca/lc-ca/eye-exam?storeId=10852&catalogId=11652&langId=-1&fromHeader=true&latLong=&page=0&apptId=&reschedule=&productId=&locationEntry=markham" target="_blank"> Book Appointment</a>
             </button>
          </div>
 
-         <div className="font-roboto mt-20 pb-4 m-auto w-80w grid grid-cols-1 md:grid-cols-3 gap-10 text-xl text-white" >
+         <div className="font-roboto mt-20 pb-4 m-auto w-4/5 grid grid-cols-1 md:grid-cols-3 gap-10 text-xl text-white" >
             <div className="font-roboto text-xl text-white">
                <div className="flex justify-evenly items-center mb-2">
                   <span className="text-3xl xl:text-7xl"><RiBookletFill /></span>

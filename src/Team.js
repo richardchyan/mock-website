@@ -10,13 +10,13 @@ const Team = () => {
    return ( 
       <div>
          <h2 id="team" className="uppercase text-4xl font-roboto md:mt-4 bg-blue-200 py-8">Our Team</h2>
-         <div className="w-90w m-auto mt-8 md:mt-10 space-y-16">
+         <div className="w-11/12 m-auto mt-8 md:mt-10 space-y-16">
             {/* single portrait div */}
             {/* portrait 1 */}
             <div className="md:flex md:space-x-10">
                <img src={stockpor1} alt="Dr.Jones" 
-               className="mb-2 md:w-40w"/>
-                <div className="md:w-50w text-left">
+               className="mb-2 md:w-1/5"/>
+                <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Rachel Jones</h3>
                   <p className="font-roboto mt-5">Dr. Rachel Jones grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
@@ -26,8 +26,8 @@ const Team = () => {
             {/* portrait 2 */}
             <div className="md:flex md:space-x-10">
                <img src={stockpor2} alt="Dr.Lee"
-               className="mb-2 md:w-40w" />
-               <div className="md:w-50w text-left">
+               className="mb-2 md:w-1/5" />
+               <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. John Lee</h3>
                   <p className="font-roboto mt-5">Dr. Rachel Jones grew up in Toronto, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>      
@@ -36,8 +36,8 @@ const Team = () => {
             {/* portrait 3 */}
             <div className="md:flex md:space-x-10">
                <img src={stockpor3} alt="Dr.Smith" 
-               className="mb-2 md:w-40w"/>
-               <div className="md:w-50w text-left">
+               className="mb-2 md:w-1/5"/>
+               <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Jane Smith</h3>
                   <p className="font-roboto mt-5">Dr. Jane Smith grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
