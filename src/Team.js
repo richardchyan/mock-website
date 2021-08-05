@@ -1,5 +1,5 @@
-import stockpor1 from './images/stockpor1.jpeg';
-import stockpor2 from './images/stockpor2.jpeg';
+import stockpor1 from './images/stockpor1.jpg';
+import stockpor2 from './images/stockpor2.jpg';
 import stockpor3 from './images/stockpor3.jpg';
 
 const Team = () => {
@@ -9,37 +9,38 @@ const Team = () => {
 
    return ( 
       <div>
-         <h2 id="team" className="scroll-m-t uppercase text-4xl font-roboto mt-10 md:mt-4 bg-blue-200 py-8">Our Team</h2>
-         <div className="w-80w m-auto mt-8 md:mt-10">
+         <h2 id="team" className="uppercase text-4xl font-roboto md:mt-4 bg-blue-200 py-8">Our Team</h2>
+         <div className="w-90w m-auto mt-8 md:mt-10 space-y-16">
             {/* single portrait div */}
             {/* portrait 1 */}
-            <div className="flex space-between items-center">
+            <div className="md:flex md:space-x-10">
                <img src={stockpor1} alt="Dr.Jones" 
-               className="h-50h w-20w object-contain mr-10" />
-               <div className="flex flex-col items-start">
+               className="mb-2 md:w-40w"/>
+                <div className="md:w-50w text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Rachel Jones</h3>
-                  <p className="font-roboto mt-5 text-justify">Dr. Rachel Jones grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
+                  <p className="font-roboto mt-5">Dr. Rachel Jones grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
+                  </div>
                </div>
-            </div>
+              
             {/* portrait 2 */}
-            <div className="flex space-evenly items-center">
+            <div className="md:flex md:space-x-10">
                <img src={stockpor2} alt="Dr.Lee"
-               className="h-50h w-20w object-cover mr-10" />
-               <div className="flex flex-col items-start">
+               className="mb-2 md:w-40w" />
+               <div className="md:w-50w text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. John Lee</h3>
-                  <p className="font-roboto mt-5 text-justify">Dr. Rachel Jones grew up in Toronto, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
+                  <p className="font-roboto mt-5">Dr. Rachel Jones grew up in Toronto, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>      
                </div>
             </div>
             {/* portrait 3 */}
-            <div className="flex space-evenly items-center">
+            <div className="md:flex md:space-x-10">
                <img src={stockpor3} alt="Dr.Smith" 
-               className="h-50h w-20w object-scale-down mr-10"/>
-               <div className="flex flex-col items-start">
+               className="mb-2 md:w-40w"/>
+               <div className="md:w-50w text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Jane Smith</h3>
-                  <p className="font-roboto mt-5 text-justify">Dr. Jane Smith grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
+                  <p className="font-roboto mt-5">Dr. Jane Smith grew up in Markham, Ontario. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ducimus praesentium! Ipsam similique suscipit architecto deserunt rem magnam vel. Reiciendis, praesentium? Provident accusantium quibusdam fuga error hic dolorum veniam quas reprehenderit voluptatibus. Laboriosam officia tempore et est, eveniet quos laudantium perferendis harum ad quisquam architecto corrupti, earum vero exercitationem a!</p>
                </div>
             </div>
          </div>

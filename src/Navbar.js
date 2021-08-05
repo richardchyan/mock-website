@@ -23,9 +23,11 @@ const Navbar = () => {
 
    return ( 
 
-      <div>
+      <div id="home">
          <nav className={navbar ? 'bg-gray-700 flex justify-between items-center fixed w-full' : "bg-transparent flex justify-between items-center fixed w-full"}>
-            <img className="w-1/5 h-auto" src={logo} alt="Markham Eye Care" />
+            <a href="#" className="w-2/5 h-auto p-4">
+               <img  src={logo} alt="Markham Eye Care" />
+            </a>
             <ul className="flex flex-row justify-between">
                <li className="cursor-pointer uppercase text-xl text-white px-4">
                   <a href="#about">About</a>

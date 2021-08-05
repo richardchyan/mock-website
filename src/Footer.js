@@ -1,11 +1,17 @@
+import { CgArrowUpO } from 'react-icons/cg';
+
 const Footer = () => {
    return ( 
-      <div className="bg-blue-100 py-14 font-roboto text-left ">
-         <h1 className="ml-10">
+      <div className="font-roboto bg-blue-100 py-8 lg:py-14 flex justify-evenly  ">
+         <h1>
             Copyright 2021 &copy; Markham Eye Care
          </h1>
-
-      </div>
+         <button>
+            <a href="#">
+               <CgArrowUpO />
+            </a>
+         </button>
+     </div>
     );
 }
  

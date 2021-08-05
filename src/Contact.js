@@ -5,10 +5,10 @@ import { RiMailSendLine } from 'react-icons/ri';
 
 const Contact = () => {
    return ( 
-      <div id="contact" className="bg-gray-50 grid grid-cols-1 lg:grid-cols-3 p-20">
+      <div id="contact" className="bg-gray-50 grid grid-cols-1 lg:grid-cols-3 my-6">
          {/* contact info, phone numbers, email */}
          <div className="flex flex-col">
-            <h2 className="uppercase text-2xl bg-blue-100 border-2 border-gray-50 rounded-xl font-medium p-2 mb-10 md:mb-6">
+            <h2 className="uppercase text-2xl bg-blue-100 font-medium p-2 mb-8 md:mb-6">
                Contact
             </h2>
             <div>
@@ -34,20 +34,22 @@ const Contact = () => {
                <span className="inline-block">
                   <RiMailSendLine />
                </span>
-               <p className="text-md mb-3 font-medium font-roboto">Email: info@markhameyecentre.com</p>
+               <p className="text-md mb-3 font-medium font-roboto">Email: info@markhameyecare.com</p>
             </div>
 
          </div>
          {/* embedded map */}
          <div className="m-auto">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5757.079817384668!2d-79.326928!3d43.823902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3877fe44031%3A0x361bcfd8742301db!2s30%20Gibson%20Dr%2C%20Markham%2C%20ON%20L3R%208B5!5e0!3m2!1sen!2sca!4v1627768976354!5m2!1sen!2sca" width="300" height="300" style={{border: 0}} allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11505.6075401434!2d-79.2885564!3d43.8682243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x521289f6f3c71ec7!2sCF%20Markville!5e0!3m2!1sen!2sca!4v1628196207977!5m2!1sen!2sca" width="400" height="300" style={{border: 0}} allowfullscreen="" loading="lazy"></iframe>
          </div>
          {/* hours and book button repeated */}
-         <div className="mt-14">
+         <div className="mt-10">
             <h3 className="text-xl">Office Hours</h3>
             <p>Monday to Saturday: 11am to 6pm</p>
             <p>Sunday: 11am to 5pm</p>
-            <button className="border-2 border-gray-50 rounded-3xl bg-yellow-100 uppercase font-semibold p-4 mt-4"> Book an Appointment</button>
+            <button className="border-2 border-gray-50 rounded-3xl bg-yellow-100 uppercase font-semibold p-4 mt-4"> 
+               <a href="https://www.lenscrafters.ca/lc-ca/eye-exam?storeId=10852&catalogId=11652&langId=-1&fromHeader=true&latLong=&page=0&apptId=&reschedule=&productId=&locationEntry=markham" target="_blank"> Book Appointment</a>
+            </button>
          </div>
          
       </div>

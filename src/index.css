@@ -5,12 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
+html,body {
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+}
+
 :root {
    scroll-behavior: smooth;
 }
 
-#about, #services, #team, #contact {
+#about {
+   scroll-margin-top: 150px;
+}
+
+#services, #team {
    scroll-margin-top: 120px;
+}
+
+#contact {
+   scroll-margin-top: 100px;
 }
 
 nav {

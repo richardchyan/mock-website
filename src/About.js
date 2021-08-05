@@ -8,11 +8,11 @@ import { GiGlassBall } from 'react-icons/gi';
 const About = () => {
    return ( 
       <> 
-      <div id="about" className="grid grid-cols-1 md:grid-cols-2 w-90w gap-20 my-16 md:my-24 m-auto">
+      <div id="about" className="grid grid-cols-1 md:grid-cols-2 w-90w gap-20 my-10 md:my-24 m-auto">
          {/* info block */}
          <div className="w-full">
             <h2 className="uppercase font-roboto text-3xl mb-8">Foresight Saves Eyesight</h2>
-            <p>Proper eye care is important for people of all ages and regular eye exam are encouraged for everyone, but especially for those already wearing glasses or contact lenses. Your vision plays a vital role in your life each and every day, which is why it is so important to take the right steps to maintain good eye health. At Markham Optometry, our eye doctors provide a variety of services, from pediatric eye exams, routine comprehensive eye exams, diabetic eye exams to corrective laser surgery consultations. If you have any questions about our services or procedures, please call us today or schedule an appointment with our doctor.</p>
+            <p className="text-left">Proper eye care is important for people of all ages and regular eye exam are encouraged for everyone, but especially for those already wearing glasses or contact lenses. Your vision plays a vital role in your life each and every day, which is why it is so important to take the right steps to maintain good eye health. At Markham Optometry, our eye doctors provide a variety of services, from pediatric eye exams, routine comprehensive eye exams, diabetic eye exams to corrective laser surgery consultations. If you have any questions about our services or procedures, please call us today or schedule an appointment with our doctor.</p>
          </div>
          {/* office hours */} 
          <div className="bg-yellow-100 flex flex-col justify-evenly p-8 md:p-14">
