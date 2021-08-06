@@ -15,7 +15,7 @@ const Team = () => {
             {/* portrait 1 */}
             <div className="md:flex md:space-x-10">
                <img src={stockpor1} alt="Dr.Jones" 
-               className="mb-2 md:w-1/5"/>
+               className="mb-2 md:w-2/5"/>
                 <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Rachel Jones</h3>
@@ -24,9 +24,9 @@ const Team = () => {
                </div>
               
             {/* portrait 2 */}
-            <div className="md:flex md:space-x-10">
+            <div className="md:flex md:space-x-10 md:">
                <img src={stockpor2} alt="Dr.Lee"
-               className="mb-2 md:w-1/5" />
+               className="mb-2 md:w-2/5" />
                <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. John Lee</h3>
@@ -36,7 +36,7 @@ const Team = () => {
             {/* portrait 3 */}
             <div className="md:flex md:space-x-10">
                <img src={stockpor3} alt="Dr.Smith" 
-               className="mb-2 md:w-1/5"/>
+               className="mb-2 md:w-2/5"/>
                <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Jane Smith</h3>

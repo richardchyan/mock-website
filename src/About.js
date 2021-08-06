@@ -8,7 +8,7 @@ import { GiGlassBall } from 'react-icons/gi';
 const About = () => {
    return ( 
       <> 
-      <div id="about" className="grid grid-cols-1 md:grid-cols-2 w-11/12 gap-20 my-1 md:my-24 m-auto">
+      <div id="about" className="grid grid-cols-1 md:grid-cols-2 w-11/12 gap-20 my-6 md:my-16 m-auto">
          {/* info block */}
          <div className="w-full">
             <h2 className="uppercase font-roboto text-3xl mb-8">Foresight Saves Eyesight</h2>
