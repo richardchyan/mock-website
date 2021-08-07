@@ -40,8 +40,8 @@ const Navbar = () => {
          {/* xs to medium */}
          {/* top bar */}
          <nav class={navbar ? 'flex lg:hidden items-center justify-between px-4 bg-gray-700 fixed w-full m-auto' : 'flex lg:hidden items-center justify-between px-4 bg-transparent fixed w-full m-auto'}>
-            <a href="#" >
-               <img src={logo} alt="Markham Eye Care" className="w-4/5 md:w-2/5 md:mt-2" />
+            <a href="#">
+               <img src={logo} alt="Markham Eye Care" className="w-52 sm:w-80 md:mt-2" />
             </a>
             <button onClick={handleToggle} className="nav-open text-4xl text-white text-center">
                {navOpen ? <CgClose /> : <AiOutlineMenu />} 
@@ -73,9 +73,10 @@ const Navbar = () => {
 
 
          {/* large and up */}
-         <nav className={navbar ? 'hidden lg:flex bg-gray-700 justify-around items-center fixed p-1 max-w-screen-xl' : "hidden lg:flex bg-transparent justify-around items-center fixed p-1 max-w-screen-xl"}>
-            <a href="#" className="w-1/4 ">
-               <img src={logo} alt="Markham Eye Care" />
+         {/* <div className="bg-red-400 w-full"> */}
+         <nav className={navbar ? 'hidden lg:flex bg-gray-700 justify-around items-center fixed p-1 w-full' : "hidden lg:flex bg-transparent justify-around items-center fixed p-1 w-full"}>
+            <a href="#">
+               <img src={logo} alt="Markham Eye Care" className="w-80" />
             </a>
             <ul className="flex flex-row justify-between">
                <li className="cursor-pointer uppercase text-xl text-white px-4">
@@ -91,8 +92,10 @@ const Navbar = () => {
                   <a href="#contact">Contact</a>
                </li>
             </ul>
-
          </nav>
+         {/* </div> */}
+        
+       
       </React.Fragment>
     );
 }

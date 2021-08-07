@@ -4,18 +4,15 @@ import stockpor3 from './images/stockpor3.jpg';
 
 const Team = () => {
 
-   // const stockpor1 = stockpor1;
-
-
    return ( 
-      <div>
+      <div className="">
          <h2 id="team" className="uppercase text-4xl font-roboto md:mt-4 bg-blue-200 py-8">Our Team</h2>
-         <div className="w-11/12 m-auto mt-8 md:mt-10 space-y-16">
+         <div className="w-11/12 m-auto mt-8 md:mt-10 space-y-16 max-w-screen-xl">
             {/* single portrait div */}
             {/* portrait 1 */}
-            <div className="md:flex md:space-x-10">
+            <div className="md:flex md:space-x-10 justify-evenly">
                <img src={stockpor1} alt="Dr.Jones" 
-               className="mb-2 md:w-2/5"/>
+               className="mb-2 md:w-1/3"/>
                 <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Rachel Jones</h3>
@@ -24,9 +21,9 @@ const Team = () => {
                </div>
               
             {/* portrait 2 */}
-            <div className="md:flex md:space-x-10 md:">
+            <div className="md:flex md:space-x-10 justify-evenly">
                <img src={stockpor2} alt="Dr.Lee"
-               className="mb-2 md:w-2/5" />
+               className="mb-2 md:w-1/3" />
                <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. John Lee</h3>
@@ -34,9 +31,9 @@ const Team = () => {
                </div>
             </div>
             {/* portrait 3 */}
-            <div className="md:flex md:space-x-10">
+            <div className="md:flex md:space-x-10 justify-evenly">
                <img src={stockpor3} alt="Dr.Smith" 
-               className="mb-2 md:w-2/5"/>
+               className="mb-2 md:w-1/3"/>
                <div className="md:w-1/2 text-left">
                   <h2 className="text-3xl uppercase">Optometrist</h2>
                   <h3 className="text-lg">Dr. Jane Smith</h3>

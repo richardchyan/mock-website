@@ -5,7 +5,7 @@ import { RiMailSendLine } from 'react-icons/ri';
 
 const Contact = () => {
    return ( 
-      <div id="contact" className="bg-gray-50 grid grid-cols-1 lg:grid-cols-3 my-6">
+      <div id="contact" className="grid grid-cols-1 lg:grid-cols-3 my-6 max-w-screen-xl m-auto">
          {/* contact info, phone numbers, email */}
          <div className="flex flex-col">
             <h2 className="uppercase text-2xl bg-blue-100 font-medium p-2 mb-8 md:mb-6">
@@ -47,7 +47,7 @@ const Contact = () => {
             <h3 className="text-xl">Office Hours</h3>
             <p>Monday to Saturday: 11am to 6pm</p>
             <p>Sunday: 11am to 5pm</p>
-            <button className="border-2 border-gray-50 rounded-3xl bg-yellow-100 uppercase font-semibold p-4 mt-4"> 
+            <button className="border-2 shadow-lg border-gray-200 rounded-lg bg-yellow-100 hover:bg-yellow-200 uppercase font-semibold p-4 mt-4"> 
                <a href="https://www.lenscrafters.ca/lc-ca/eye-exam?storeId=10852&catalogId=11652&langId=-1&fromHeader=true&latLong=&page=0&apptId=&reschedule=&productId=&locationEntry=markham" target="_blank"> Book Appointment</a>
             </button>
          </div>
